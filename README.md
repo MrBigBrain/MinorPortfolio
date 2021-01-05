@@ -1,29 +1,51 @@
 # Personal Portfolio
 Dit is de Portfolio van de minor Applied Data Science van Levy Duivenvoorden (18005152).
+Teamleden: Niels (Nelis), Niels, Amin en Jefry.
 
 # Project definition
 We are Factory Zero...
 ## onderzoeksvraag
 The research question is...
-
-## General overview
-The general plan will be stated here.
-
-## DataCamp exercizes
-The datacamp courses are...
-
 ## literature review
 The literature that has been read was...
+What was the conclusion per paper, and was it beneficial.
+### Data preprocessing
+How was the data being processed?
+### chosen models
+According to the literature review the following models were chosen.
+The configuration of this model was:
+The model was trained.
+The model was evaluated.
+The outcome was visualized.
+## conclusion
+The conclusion is...
 
 # written code (notebooks)
 The code that has been written will be here.
 Only the general purpose of the notebook.
+## DataCamp exercizes
+The datacamp courses are...
 ## learned functions
 All the learned methods in data science will be here.
 With respect to the written code.
 
-# presentations
+# Group effort
+## Feature selection
+What features were selected?
+## General overview
+The general plan will be stated here.
+### planning
+Every week we came together to make an sprint planning for the next week.
+## presentations
 Which presentations did I give?
-
-# reflection on minor
+## reflections
 What did I learn this minor...
+
+# Terminalogical (complex jargon)
+
+TO DO:
+check links
+Make as short and specific as possible
+check if the big picture is clear
+Relation between the lectures and presentations and the problem
+clear contribution per team member of each notebooks.
