@@ -1,7 +1,6 @@
 # Personal Portfolio
 Dit is de Portfolio van de minor Applied Data Science van Levy Duivenvoorden (18005152).
 Teamleden: Niels (Nelis), Niels, Amin en Jefry.
-![Image of Yaktocat](download.jpg)
 
 # Project definition
 We are team Zero and we work with our problem owner, mr. Rahola.
@@ -27,7 +26,7 @@ The conclusion is...
 The code that has been written will be here.
 Only the general purpose of the notebook.
 ## DataCamp exercizes
-The datacamp courses are...
+![Datacamp](MendatoryDatacampCourses.png)
 ## learned functions
 All the learned methods in data science will be here.
 With respect to the written code.
