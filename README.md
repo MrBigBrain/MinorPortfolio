@@ -56,8 +56,8 @@ What did I learn this minor...
 # Terminalogical (complex jargon)
 
 TO DO:
-check links
-Make as short and specific as possible
-check if the big picture is clear
-Relation between the lectures and presentations and the problem
-clear contribution per team member of each notebooks.
+- check links. .
+- Make as short and specific as possible. .
+- check if the big picture is clear. .
+- Relation between the lectures and presentations and the problem. .
+- clear contribution per team member of each notebooks. .
