@@ -18,14 +18,15 @@ According to the literature review the following models were chosen.<br/>
 The configuration of this model was:<br/>
 The model was trained.<br/>
 The model was evaluated.<br/>
-The outcome was visualized.<br/>
+The outcome was visualized.
 <br/>
 **CONSUMPTION**
 <details>
 <summary>MVLR</summary>
 <br>
-The consumption MVLR 
+The consumption MVLR...<br/>
 </details>
+[link](W16_MVLR_MultipleHouses_consumption.pdf)
 
 <details>
 <summary>SVR</summary>
