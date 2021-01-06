@@ -26,9 +26,9 @@ The conclusion is...
 The code that has been written will be here.
 Only the general purpose of the notebook.
 ## DataCamp exercizes
-Below are the mendatory DataCamp Courses:
+Below are the mendatory DataCamp Courses:.
 ![Datacamp](MendatoryDatacampCourses.png)
-The Extra DataCamp courses me (and the other Teammembers) did:
+> The Extra DataCamp courses me (and the other Teammembers) did:.
 - Time Series Analysis in Python
 - Visualizing Time Series Data in Python
 - Manipulating Time Series Data in Python
