@@ -1,7 +1,7 @@
 # Personal Portfolio
 Dit is de Portfolio van de minor Applied Data Science van Levy Duivenvoorden (18005152).
 Teamleden: Niels (Nelis), Niels, Amin en Jefry.
-
+MinorPortfolio
 # Project definition
 We are team Zero and we work with our problem owner, mr. Rahola.
 The task that was given is to see if it is possible to predict the electricity production and consumption one day in advance on hourly resolution.
