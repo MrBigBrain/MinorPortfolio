@@ -24,7 +24,7 @@ The outcome was visualized.<br/>
 <details>
 <summary>MVLR</summary>
 <br>
-This is how you dropdown.
+The consumption MVLR 
 </details>
 
 <details>
