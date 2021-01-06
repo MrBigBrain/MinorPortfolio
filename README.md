@@ -19,6 +19,30 @@ The configuration of this model was:
 The model was trained.
 The model was evaluated.
 The outcome was visualized.
+
+<details>
+<summary>MVLR</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>SVR</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>NN (MLP)</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>LSTM</summary>
+<br>
+This is how you dropdown.
+</details>
 ## conclusion
 The conclusion is...
 
