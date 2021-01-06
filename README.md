@@ -14,12 +14,39 @@ What was the conclusion per paper, and was it beneficial.
 ### Data preprocessing
 How was the data being processed?
 ### chosen models
-According to the literature review the following models were chosen.
-The configuration of this model was:
-The model was trained.
-The model was evaluated.
-The outcome was visualized.
+According to the literature review the following models were chosen.<br/>
+The configuration of this model was:<br/>
+The model was trained.<br/>
+The model was evaluated.<br/>
+The outcome was visualized.<br/>
+<br/>
+**CONSUMPTION**
+<details>
+<summary>MVLR</summary>
+<br>
+This is how you dropdown.
+</details>
 
+<details>
+<summary>SVR</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>NN (MLP)</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>LSTM</summary>
+<br>
+This is how you dropdown.
+</details>
+¬
+
+**PRODUCTION**
 <details>
 <summary>MVLR</summary>
 <br>
