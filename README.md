@@ -24,9 +24,8 @@ The outcome was visualized.
 <details>
 <summary>MVLR</summary>
 <br>
-The consumption MVLR...<br/>
+The consumption MVLR.
 </details>
-[link](W16_MVLR_MultipleHouses_consumption.pdf)
 
 <details>
 <summary>SVR</summary>
