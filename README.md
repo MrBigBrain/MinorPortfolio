@@ -20,56 +20,26 @@ The model was trained.<br/>
 The model was evaluated.<br/>
 The outcome was visualized.
 <br/>
-**CONSUMPTION**
-<details>
-<summary>MVLR</summary>
-<br>
-The consumption MVLR.
-</details>
+**CONSUMPTION**<br>
+MVLR<br>
 
-<details>
-<summary>SVR</summary>
-<br>
-This is how you dropdown.
-</details>
+SVR<br>
 
-<details>
-<summary>NN (MLP)</summary>
-<br>
-This is how you dropdown.
-</details>
+NN (MLP)<br>
 
-<details>
-<summary>LSTM</summary>
-<br>
-This is how you dropdown.
-</details>
+LSTM<br>
 ¬
 
-**PRODUCTION**
-<details>
-<summary>MVLR</summary>
-<br>
-This is how you dropdown.
-</details>
+**PRODUCTION**<br>
+MVLR<br>
 
-<details>
-<summary>SVR</summary>
-<br>
-This is how you dropdown.
-</details>
+SVR<br>
 
-<details>
-<summary>NN (MLP)</summary>
-<br>
-This is how you dropdown.
-</details>
+NN (MLP)<br>
 
-<details>
-<summary>LSTM</summary>
-<br>
-This is how you dropdown.
-</details>
+LSTM<br>
+¬
+
 ## conclusion
 The conclusion is...
 
