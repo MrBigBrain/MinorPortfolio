@@ -15,9 +15,13 @@ We all delivered 3 papers with high potential. After which we all red the best p
 After this we found some papers, however we found out that there aren't many papers that looks like our research.<br/>
 Around week 10 we concluded that more literature was needed to find the best model to make.<br/>
 I found three papers that had interesting results:<br/>
-- a
-- b
-- c
+- The paper below uses an Neural Network (MLP) and three forms of LSTM to predict two hours in the future. The paper also shows all of the steps taken to come to the conclusion. The conclusion is that an LSTM works better than an NN (MLP).<br/>
+![ANN_and_3_LSTM_forms](ANN_+_3_types_of_LSTM_with_clear_feature_selection.pdf)
+- The paper below makes an new form of LSTM, the CNN-LSTM. This means that before the data is given to the LSTM the data is put through an CNN layer. This layer is mostly used in image and audio processing. The paper concluded that this greatly benefits the results, it is the best compared to all other methods.<br/>
+![CNN_LSTM_combination](CNN-LSTM_combination.pdf)
+- The paper below is from two years ago. The paper is an overview about all the used methods in the past to predict energy consumption. The conclusion is that SVR and LSTM work best, but the implementation scenario greatly influences the model to use.<br/>
+![overview_paper](overview_of_prediction_consumption.pdf)
+After doing this research the conclusion is that LSTM works best and can be made in the short time of the minor. But for comparison a MVLR, NN (MLP) and a SVR will be made. <br/>
 ### Data preprocessing
 How was the data being processed?<br/>
 ### chosen models
