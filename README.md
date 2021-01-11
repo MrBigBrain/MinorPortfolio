@@ -1,43 +1,52 @@
 # Personal Portfolio
-Dit is de Portfolio van de minor Applied Data Science van Levy Duivenvoorden (18005152).
-Teamleden: Niels (Nelis), Niels, Amin en Jefry.
+This is The Portfolio from the minor Applied Data Science of Levy Duivenvoorden (18005152).<br/>
+Team members: Niels (Nelis), Niels, Amin en Jefry.<br/>
 
 # Project definition
-We are team Zero and we work with our problem owner, mr. Rahola.
-The task that was given is to see if it is possible to predict the electricity production and consumption one day in advance on hourly resolution.
+We are team Zero and we work with our problem owner, mr. Rahola (He was also the problem owner of Brian).<br/>
+The task that was given is to see if it is possible to predict the electricity production and consumption one day in advance on hourly resolution.<br/>
 ## onderzoeksvraag
-The more specific research question is: 
-What is a suitable machine learning model to predict energy use & production of a “zero at the meter” residential house, one day in advance with (if possible) an hourly resolution?
+The more specific research question is:<br/>
+What is a suitable machine learning model to predict energy use & production of a “zero at the meter” residential house, one day in advance with (if possible) an hourly resolution?<br/>
 ## literature review
-The literature that has been read was.
-What was the conclusion per paper, and was it beneficial.
+We did an individual literature study in the first weeks, and afterwards we came together and concluded which were the best.<br/>
+After which we all red the best papers. The best papers were:<br/>
+- ss
 ### Data preprocessing
-How was the data being processed?
+How was the data being processed?<br/>
 ### chosen models
 According to the literature review the following models were chosen.<br/>
 The configuration of this model was:<br/>
 The model was trained.<br/>
 The model was evaluated.<br/>
-The outcome was visualized.
+The outcome was visualized.<br/>
 <br/>
 **CONSUMPTION**<br>
 MVLR<br>
+![MVLR_consumption](W16_MVLR_MultipleHouses_consumption.pdf)
 
 SVR<br>
+![SVR_consumption](W16_SVR_MultipleHouses_consumption.pdf)
 
 NN (MLP)<br>
+![NN_consumption](W16_NN_MultipleHouses_consumption.pdf)
 
 LSTM<br>
+![LSTM_consumption](W16_LSTM_MultipleHouses_consumption.pdf)
 ¬
 
 **PRODUCTION**<br>
 MVLR<br>
+![MVLR_production](W16_MVLR_MultipleHouses_production.pdf)
 
 SVR<br>
+![SVR_production](W16_SVR_MultipleHouses_production.pdf)
 
 NN (MLP)<br>
+![NN_production](W16_NN_MultipleHouses_production.pdf)
 
 LSTM<br>
+![LSTM_production](W16_LSTM_MultipleHouses_production.pdf)
 ¬
 
 ## conclusion
@@ -64,21 +73,21 @@ With respect to the written code.
 
 # Group effort
 ## Feature selection
-What features were selected?
+What features were selected?<br/>
 ## General overview
-The general plan will be stated here.
+The general plan will be stated here.<br/>
 ### planning
-Every week we came together to make an sprint planning for the next week.
+Every week we came together to make an sprint planning for the next week.<br/>
 ## presentations
-Which presentations did I give?
+Which presentations did I give?<br/>
 ## reflections
-What did I learn this minor...
+What did I learn this minor...<br/>
 
 # Terminalogical (complex jargon)
 
-TO DO:
-- check links. .
-- Make as short and specific as possible. .
-- check if the big picture is clear. .
-- Relation between the lectures and presentations and the problem. .
-- clear contribution per team member of each notebooks. .
+END THINGS TO DO:<br/>
+- check links.<br/>
+- Make as short and specific as possible.<br/>
+- check if the big picture is clear.<br/>
+- Relation between the lectures and presentations and the problem.<br/>
+- clear contribution per team member of each notebooks.<br/>
