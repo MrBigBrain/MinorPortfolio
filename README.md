@@ -16,14 +16,28 @@ After this we found some papers, however we found out that there aren't many pap
 Around week 10 we concluded that more literature was needed to find the best model to make.<br/>
 I found three papers that had interesting results:<br/>
 - The paper below uses an Neural Network (MLP) and three forms of LSTM to predict two hours in the future. The paper also shows all of the steps taken to come to the conclusion. The conclusion is that an LSTM works better than an NN (MLP).<br/>
-![ANN_and_3_LSTM_forms](ANN_+_3_types_of_LSTM_with_clear_feature_selection.pdf)
+![ANN_and_3_LSTM_forms](ANN_+_3_types_of_LSTM_with_clear_feature_selection.pdf)<br/>
 - The paper below makes an new form of LSTM, the CNN-LSTM. This means that before the data is given to the LSTM the data is put through an CNN layer. This layer is mostly used in image and audio processing. The paper concluded that this greatly benefits the results, it is the best compared to all other methods.<br/>
-![CNN_LSTM_combination](CNN-LSTM_combination.pdf)
+![CNN_LSTM_combination](CNN-LSTM_combination.pdf)<br/>
 - The paper below is from two years ago. The paper is an overview about all the used methods in the past to predict energy consumption. The conclusion is that SVR and LSTM work best, but the implementation scenario greatly influences the model to use.<br/>
-![overview_paper](overview_of_prediction_consumption.pdf)
+![overview_paper](overview_of_prediction_consumption.pdf)<br/>
+<br/>
 After doing this research the conclusion is that LSTM works best and can be made in the short time of the minor. But for comparison a MVLR, NN (MLP) and a SVR will be made. <br/>
 ### Data preprocessing
-How was the data being processed?<br/>
+In the first weeks we got the dat in Excel format. The total size was around 9 GigaBytes.<br/>
+Due to the rather large size loading was cumbersome. Therefore we discussed the best data format to put the data in.<br/>
+It was concluded that seperating the data in numpy dataframes. I made the program to do this.<br/>
+![ExcelToNumpyCoversion](Convert_Excel_tp_Numpy.pdf)<br/>
+The program loads the Excel file in an pandas dataframe. Whereafter it splits it up in numpy files, for every house and sheet combination one file.<br/>
+After running the program, around 3600 numpy files have been generated. This greatly reduces the loading times.<br/>
+<br/>
+Nelis (Niels van Schaik) made a simple program to load in the numpy data in an dataframe.<br/>
+This makes the program run a lot faster.<br/>
+<br/>
+After making an dataloader, it was concluded that the timestamps were inconsistent. This needed to get fixed.<br/>
+We had an Brainstorm session about it (with our problem owner), whereafter we concluded that resampling to one hour works best.<br/>
+This was done ...................................................<br/>
+
 ### chosen models
 According to the literature review the following models were chosen.<br/>
 The configuration of this model was:<br/>
