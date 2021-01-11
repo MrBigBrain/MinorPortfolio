@@ -10,8 +10,14 @@ The more specific research question is:<br/>
 What is a suitable machine learning model to predict energy use & production of a “zero at the meter” residential house, one day in advance with (if possible) an hourly resolution?<br/>
 ## literature review
 We did an individual literature study in the first weeks, and afterwards we came together and concluded which were the best.<br/>
-After which we all red the best papers. The best papers were:<br/>
-- ss
+We all delivered 3 papers with high potential. After which we all red the best papers. The papers were ranked in excel: <br/>
+![LiteratureStudyAllSources](literaturePapersWeek5.xlsx)
+After this we found some papers, however we found out that there aren't many papers that looks like our research.<br/>
+Around week 10 we concluded that more literature was needed to find the best model to make.<br/>
+I found three papers that had interesting results:<br/>
+- a
+- b
+- c
 ### Data preprocessing
 How was the data being processed?<br/>
 ### chosen models
