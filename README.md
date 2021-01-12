@@ -4,7 +4,16 @@ Team members: Niels (Nelis), Niels, Amin en Jefry.<br/>
 
 # Project definition
 We are team Zero and we work with our problem owner, mr. Rahola (He was also the problem owner of Brian).<br/>
+Factory Zero is the company that we've gotten the data from. They maken modules (ICEM's) to make houses more sustainable.<br/>
+They have some social houses that have been retrofit in Zoetermeer, the data is from those 120 houses.<br/>
 The task that was given is to see if it is possible to predict the electricity production and consumption one day in advance on hourly resolution.<br/>
+This will benefit Factory Zero, due to the possibility in reducing CO2 emissions.<br/>
+<br/>
+In the future they want to integrate a method for storing electricity (other than the boiler).<br/> 
+Therefore an good prediction model is needed to guarantee the energy for the household.<br/>
+Also in in 2023 the salderingsregeling is going to start. This means that households don't get an guaranteed price for the energy delivered to the grid.<br/>
+And the household might get a fine for delivering electricity to the net.<br/>
+<br/>
 ## onderzoeksvraag
 The more specific research question is:<br/>
 What is a suitable machine learning model to predict energy use & production of a “zero at the meter” residential house, one day in advance with (if possible) an hourly resolution?<br/>
@@ -121,17 +130,24 @@ This is probably due to the remembering capabilities of the model.<br/>
 Every model is being reset at the beginning of training of the house.<br/>
 ¬
 ### Results
-
-
+The results were received by the excel file written by my program. However the results were very big.<br/>
+Therefore Jefry calculated and used the mean of the errors in the paper. All of the original results are here: ![results](Results_V3)<br/>
+Also all of the models were overlapped in two graphs, one for production and one for consumption. I made the program that does that:<br/>
+![PlotAllModelsInOneGraph](W16_PlotAllModelsInOneGraph.pdf)<br/>
+The results for the consumption are:<br/>
+![results](Results_V3/AllModels_OneGraph_consumption.png)
+The results for the production are:<br/>
+![results](Results_V3/AllModels_OneGraph_production.png)
+<br/>
+To compare the results of the models I and Niels checked which evaluation metrics were used most often in literature.<br/>
+We concluded that MAPE, MSE, MAE and R^2 were the most suitable for our evaluation.<br/>
+<br/>
 ## conclusion
 Therefore we can conclude that LSTM is the best of the considered models thus far.<br/>
 There might be room for improvement due to the literature found than an CNN-LSTM outperformed the LSTM by around 30 percent.<br/>
 However currently the results show that the MVLR performs best on the production data.<br/>
 So there is room for improvement by making an LSTM that is better trained.<br/>
 <br/>
-# written code (notebooks)
-The code that has been written will be here.
-Only the general purpose of the notebook.
 ## DataCamp exercizes
 Below are the mendatory DataCamp Courses:¬
 
@@ -144,27 +160,34 @@ The Extra DataCamp courses me (and the other Teammembers) did:
 - Manipulating Time Series Data in Python
 - ARIMA Models in Python
 - Machine Learning for Time Series Data in Python
+<br/>
 ## learned functions
-All the learned methods in data science will be here.
-With respect to the written code.
-
+There were a lot of functions I learned in this minor.<br/>
+The most used are summerized below:<br/>
+- The pytorch module: Dataloaders, Neural Network, LSTM-Cells, Dataloaders, tensors, all kinds of optimizers (Adam, AdamW, etc) and loss functions (SmoothL1Loss, MSE-loss, etc).
+- The SKlearn module: Standardscalers, SVR, MVLR, and the stats module (MSE, RMSE, MAPE, MAE).
+- Optimizing Neural Networks and interpreting results.
+<br/>
+And the overal understanding of how deep learning and 
+<br/>
 # Group effort
-## Feature selection
-What features were selected?<br/>
-## General overview
+## General overview/
 The general plan will be stated here.<br/>
 ### planning
 Every week we came together to make an sprint planning for the next week.<br/>
 ## presentations
 Which presentations did I give?<br/>
 ## reflections
-What did I learn this minor...<br/>
-
-# Terminalogical (complex jargon)
-
+I learning this minor how to work in a big project of which the duration is longer than one week.<br/>
+The group was very kind to eachother which helped the end goal of the project.<br/>
+We held an retrospective every friday and afterwards we planned the next week and devided all the scrum cards.<br/>
+It was very nice to have an good overview of what had to be done.<br/>
+<br/>
+I personaly learned a lot about working in an big team. Even though I only saw them once after the exam pas week.<br/>
+Even though Corona was making studying harder, I am satisfied with the results of the project.<br/>
+And hopefully our paper will get published.<br/>
+<br/>
 END THINGS TO DO:<br/>
 - check links.<br/>
-- Make as short and specific as possible.<br/>
-- check if the big picture is clear.<br/>
 - Relation between the lectures and presentations and the problem.<br/>
 - clear contribution per team member of each notebooks.<br/>
