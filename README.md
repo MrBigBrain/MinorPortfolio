@@ -161,6 +161,8 @@ The Extra DataCamp courses me (and the other Teammembers) did:
 - ARIMA Models in Python
 - Machine Learning for Time Series Data in Python
 <br/>
+¬
+
 ## learned functions
 There were a lot of functions I learned in this minor.<br/>
 The most used are summerized below:<br/>
@@ -168,21 +170,31 @@ The most used are summerized below:<br/>
 - The SKlearn module: Standardscalers, SVR, MVLR, and the stats module (MSE, RMSE, MAPE, MAE).
 - Optimizing Neural Networks and interpreting results.
 <br/>
-And the overal understanding of how deep learning and 
-<br/>
+And the overal understanding of how deep learning and<br/> 
+¬
+
 # Group effort
-## General overview/
+¬
+
+## General overview
 The general plan will be stated here.<br/>
+¬
+
 ### planning
 We held an retrospective every friday and afterwards we planned the next week and devided all the scrum cards.<br/>
 It was very nice to have an good overview of what had to be done. Our problem owner is teacher at De Haagse Hogeschool, so he was our Scrum master.<br/>
 I,Levy, was the notulist. I make notes during meetings and contacted the teacher for weekly meetings.<br/>
 ![notulen](Notulen/Notulen)<br/>
-<br/>
+¬
+
 ## presentations
 I gave multiple presentations.<br/>
+¬
+
 ## paper contribution
 I<br/>
+¬
+
 ## reflections
 In this minor I learned many things, below I've summerized the reflection.<br/>
 <br/>
@@ -200,5 +212,4 @@ However I gave the chance for everyone to work on these models.<br/>
 So I personaly learned a lot about working in an big team. Even though I only saw them once after the exam pas week.<br/>
 Even though Corona was making studying harder, I am satisfied with the results of the project.<br/>
 And hopefully our paper will get published. :)<br/>
-<br/>
-
+¬
