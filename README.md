@@ -47,6 +47,10 @@ To visualize these gaps an heatmap was made by Niels and I.<br/>
 The heatmap shown in the program below makes it easy to select the right houses.<br/>
 ![Heatmap_Program](Heatmap_np.pdf)<br/>
 <br/>
+The method for splitting the data into training validating and testing was an big problem due to the seasonal patterns.<br/>
+Therefore an Brainstorming session was held with the entire Team to discuss this.<br/>
+We decided (after a few weeks) to stick with 60 percent training, 30 percent validation and 10 percent training. All in chronological order.<br/>
+<br/>
 After choosing the right datasets and the right models it was chosen to begin with the most simple models.<br/>
 These are the MVLR and SVR (firstly only for production), I worked alone on the SVR.<br/>
 Below is the SVR that I made: (the MVLR was made by Niels and Jefry.)<br/>
@@ -78,43 +82,53 @@ Nelis (Niels van Schaick) made an program to detect the peaks using the standard
 <br/>
 
 ### chosen models
-According to the literature review the following models were chosen.<br/>
-The configuration of this model was:<br/>
-The model was trained.<br/>
-The model was evaluated.<br/>
-The outcome was visualized.<br/>
+The models that were discussed before were for only one house. Of course we have 120 houses.<br/>
+Thus with the help of Niels program 12 of the 120 houses have few datagaps bigger than 1 hour in 2019.<br/>
+All of the models (SVR,MVLR,MLP(NN),LSTM) had to be ported to be used on all 12 houses.<br/>
+Firstly Jefry provided the Datasets needed for all of the houses (more info in his portfolio).<br/>
+After this I made an program that tests all of the houses in one big program, this however had problems.<br/>
+![AllModelsOneScript](W16_AllInOne_TestProgram-Copy2.pdf)<br/>
+The first is that the program isn't easily readable and it is to complex.<br/>
 <br/>
-**CONSUMPTION**<br>
-MVLR<br>
-![MVLR_consumption](W16_MVLR_MultipleHouses_consumption.pdf)
-
-SVR<br>
-![SVR_consumption](W16_SVR_MultipleHouses_consumption.pdf)
-
-NN (MLP)<br>
-![NN_consumption](W16_NN_MultipleHouses_consumption.pdf)
-
-LSTM<br>
-![LSTM_consumption](W16_LSTM_MultipleHouses_consumption.pdf)
+After this mistake, all of the programs were seperated. One notebook for every model (4x) and consumption/production (2x) combination.<br/>
+Below are all eight of these programs. All of the parameters were selected by Niels for one house.<br/>
+It took around two full weeks to get the program right without any mistakes. Niels helped in this process.<br/>
+<br>
+**MVLR**<br>
+This model is the easiest model of all the models, it takes the selected features and tries to predict the next day consumption.<br/>
+The parameters weren't changed in this program. It performed all right, below is the total program:<br/>
+![MVLR_consumption](W16_MVLR_MultipleHouses_consumption.pdf)<br>
+![MVLR_production](W16_MVLR_MultipleHouses_production.pdf)<br>
+<br/>
+**SVR**<br>
+This model had already been made by me weeks ago, therefore making it again was very easy.<br/>
+The model performed slightly better than the MVLR, with no parameter changes:<br/>
+![SVR_consumption](W16_SVR_MultipleHouses_consumption.pdf)<br>
+![SVR_production](W16_SVR_MultipleHouses_production.pdf)<br>
+<br/>
+**NN (MLP)**<br>
+The NN performed way worse than the MVLR. It looks like it can't find the patterns in the data.<br/>
+This might be due to the non stationairity of the data.<br/>
+![NN_consumption](W16_NN_MultipleHouses_consumption.pdf)<br>
+![NN_production](W16_NN_MultipleHouses_production.pdf)<br>
+<br/>
+**LSTM**<br>
+The LSTM performed the best of all models, it found the general daily pattern.<br/>
+This is probably due to the remembering capabilities of the model.<br/>
+![LSTM_consumption](W16_LSTM_MultipleHouses_consumption.pdf)<br>
+![LSTM_production](W16_LSTM_MultipleHouses_production.pdf)<br>
+<br/>
+Every model is being reset at the beginning of training of the house.<br/>
 ¬
+### Results
 
-**PRODUCTION**<br>
-MVLR<br>
-![MVLR_production](W16_MVLR_MultipleHouses_production.pdf)
-
-SVR<br>
-![SVR_production](W16_SVR_MultipleHouses_production.pdf)
-
-NN (MLP)<br>
-![NN_production](W16_NN_MultipleHouses_production.pdf)
-
-LSTM<br>
-![LSTM_production](W16_LSTM_MultipleHouses_production.pdf)
-¬
 
 ## conclusion
-The conclusion is...
-
+Therefore we can conclude that LSTM is the best of the considered models thus far.<br/>
+There might be room for improvement due to the literature found than an CNN-LSTM outperformed the LSTM by around 30 percent.<br/>
+However currently the results show that the MVLR performs best on the production data.<br/>
+So there is room for improvement by making an LSTM that is better trained.<br/>
+<br/>
 # written code (notebooks)
 The code that has been written will be here.
 Only the general purpose of the notebook.
