@@ -174,20 +174,18 @@ And the overal understanding of how deep learning and
 ## General overview/
 The general plan will be stated here.<br/>
 ### planning
-Every week we came together to make an sprint planning for the next week.<br/>
+We held an retrospective every friday and afterwards we planned the next week and devided all the scrum cards.<br/>
+It was very nice to have an good overview of what had to be done.<br/>
 ## presentations
 Which presentations did I give?<br/>
+## paper contribution
+I<br/>
 ## reflections
 I learning this minor how to work in a big project of which the duration is longer than one week.<br/>
 The group was very kind to eachother which helped the end goal of the project.<br/>
-We held an retrospective every friday and afterwards we planned the next week and devided all the scrum cards.<br/>
-It was very nice to have an good overview of what had to be done.<br/>
 <br/>
 I personaly learned a lot about working in an big team. Even though I only saw them once after the exam pas week.<br/>
 Even though Corona was making studying harder, I am satisfied with the results of the project.<br/>
 And hopefully our paper will get published.<br/>
 <br/>
-END THINGS TO DO:<br/>
-- check links.<br/>
-- Relation between the lectures and presentations and the problem.<br/>
-- clear contribution per team member of each notebooks.<br/>
+
