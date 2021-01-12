@@ -177,7 +177,7 @@ The general plan will be stated here.<br/>
 We held an retrospective every friday and afterwards we planned the next week and devided all the scrum cards.<br/>
 It was very nice to have an good overview of what had to be done. Our problem owner is teacher at De Haagse Hogeschool, so he was our Scrum master.<br/>
 I,Levy, was the notulist. I make notes during meetings and contacted the teacher for weekly meetings.<br/>
-![notulen](0)<br/>
+![notulen](Notulen/Notulen)<br/>
 <br/>
 ## presentations
 I gave multiple presentations.<br/>
