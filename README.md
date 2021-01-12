@@ -175,17 +175,30 @@ And the overal understanding of how deep learning and
 The general plan will be stated here.<br/>
 ### planning
 We held an retrospective every friday and afterwards we planned the next week and devided all the scrum cards.<br/>
-It was very nice to have an good overview of what had to be done.<br/>
+It was very nice to have an good overview of what had to be done. Our problem owner is teacher at De Haagse Hogeschool, so he was our Scrum master.<br/>
+I,Levy, was the notulist. I make notes during meetings and contacted the teacher for weekly meetings.<br/>
+![notulen](0)<br/>
+<br/>
 ## presentations
-Which presentations did I give?<br/>
+I gave multiple presentations.<br/>
 ## paper contribution
 I<br/>
 ## reflections
-I learning this minor how to work in a big project of which the duration is longer than one week.<br/>
-The group was very kind to eachother which helped the end goal of the project.<br/>
+In this minor I learned many things, below I've summerized the reflection.<br/>
 <br/>
-I personaly learned a lot about working in an big team. Even though I only saw them once after the exam pas week.<br/>
+I learning this minor how to work in a big project of which the duration is longer than one week.<br/>
+Before I've only worked in groups of two and for an shorter time. So it was an big change.<br/>
+However everyone was supportive of eachother. So I've mastered this.<br/>
+<br/>
+One of the things that was difficult for me was finding the balance in programming while in a group.<br/>
+At the beginning of the minor I took over most of the time. However later on we decided to structure this differently.<br/>
+Gerda got the idea for us to do driver navigator roles. This helped a lot, and I've mastered it now.<br/>
+<br/>
+The programming and improvements of NN (MLP) is what I contributed the most on.<br/>
+However I gave the chance for everyone to work on these models.<br/>
+<br/>
+So I personaly learned a lot about working in an big team. Even though I only saw them once after the exam pas week.<br/>
 Even though Corona was making studying harder, I am satisfied with the results of the project.<br/>
-And hopefully our paper will get published.<br/>
+And hopefully our paper will get published. :)<br/>
 <br/>
 
