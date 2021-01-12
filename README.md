@@ -190,10 +190,12 @@ I gave multiple presentations.<br/>
 
 <br/>
 Niels and I gave an public presentation, where I presented the results and conclusion and he did the rest.<br/>
+
 ![PublicPresentation](Open_presentation_07-01-21.pdf)
 <br/>
 The last was an voluntary lunch presentation (online) for the TU-Delft.<br/>
 Where I presented with Niels, he did the first part and I did the results and conclusion.<br/>
+
 ![PresentationTU_Delft](Lunch_presentation_TU_Delft.pdf)
 ¬
 
@@ -204,7 +206,6 @@ Where I presented with Niels, he did the first part and I did the results and co
 - wrote about what loss function was used.
 - wrote about the dataset that was being used for consumption.
 - wrote about how both models, LSTM and MLP, were being made and with which parameters.
-<br/>
 ![PaperV01](Paper_v01.pdf)
 ¬
 
