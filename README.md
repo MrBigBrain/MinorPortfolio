@@ -204,7 +204,8 @@ Where I presented with Niels, he did the first part and I did the results and co
 - wrote about what loss function was used.
 - wrote about the dataset that was being used for consumption.
 - wrote about how both models, LSTM and MLP, were being made and with which parameters.
-![PaperV01]()
+<br/>
+![PaperV01](Paper_v01.pdf)
 ¬
 
 ## reflections
