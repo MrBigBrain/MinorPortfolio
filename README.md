@@ -189,6 +189,10 @@ I,Levy, was the notulist. I make notes during meetings and contacted the teacher
 
 ## presentations
 I gave multiple presentations.<br/>
+
+The last was an voluntary lunch presentation (online) for the TU-Delft.<br/>
+Where I presented with Niels, he did the first part and I did the results and conclusion.<br/>
+![PresentationTU_Delft](Lunch_presentation_TU_Delft.pdf)
 ¬
 
 ## paper contribution
