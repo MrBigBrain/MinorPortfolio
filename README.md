@@ -29,7 +29,7 @@ I found three papers that had interesting results:<br/>
 - The paper below makes an new form of LSTM, the CNN-LSTM. This means that before the data is given to the LSTM the data is put through an CNN layer. This layer is mostly used in image and audio processing. The paper concluded that this greatly benefits the results, it is the best compared to all other methods.<br/>
 ![CNN_LSTM_combination](CNN-LSTM_combination.pdf)<br/>
 - The paper below is from two years ago. The paper is an overview about all the used methods in the past to predict energy consumption. The conclusion is that SVR and LSTM work best, but the implementation scenario greatly influences the model to use.<br/>
-![overview_paper](overview_of_prediction_consumption.pdf)<br/>
+![overview_paper](overview_of_prediciting_consumption.pdf)<br/>
 <br/>
 After doing this research the conclusion is that LSTM works best and can be made in the short time of the minor. But for comparison a MVLR, NN (MLP) and a SVR will be made.<br/>
 ¬
