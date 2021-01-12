@@ -22,8 +22,10 @@ I found three papers that had interesting results:<br/>
 - The paper below is from two years ago. The paper is an overview about all the used methods in the past to predict energy consumption. The conclusion is that SVR and LSTM work best, but the implementation scenario greatly influences the model to use.<br/>
 ![overview_paper](overview_of_prediction_consumption.pdf)<br/>
 <br/>
-After doing this research the conclusion is that LSTM works best and can be made in the short time of the minor. But for comparison a MVLR, NN (MLP) and a SVR will be made. <br/>
-### Data preprocessing
+After doing this research the conclusion is that LSTM works best and can be made in the short time of the minor. But for comparison a MVLR, NN (MLP) and a SVR will be made.<br/>
+¬
+
+### Data preprocessing<br/>
 In the first weeks we got the dat in Excel format. The total size was around 9 GigaBytes.<br/>
 Due to the rather large size loading was cumbersome. Therefore we discussed the best data format to put the data in.<br/>
 It was concluded that seperating the data in numpy dataframes. I made the program to do this.<br/>
