@@ -169,8 +169,6 @@ The most used are summerized below:<br/>
 - The pytorch module: Dataloaders, Neural Network, LSTM-Cells, Dataloaders, tensors, all kinds of optimizers (Adam, AdamW, etc) and loss functions (SmoothL1Loss, MSE-loss, etc).
 - The SKlearn module: Standardscalers, SVR, MVLR, and the stats module (MSE, RMSE, MAPE, MAE).
 - Optimizing Neural Networks and interpreting results.
-<br/>
-And the overal understanding of how deep learning and<br/> 
 ¬
 
 # Group effort
@@ -190,13 +188,23 @@ I,Levy, was the notulist. I make notes during meetings and contacted the teacher
 ## presentations
 I gave multiple presentations.<br/>
 
+<br/>
+Niels and I gave an public presentation, where I presented the results and conclusion and he did the rest.<br/>
+![PublicPresentation](Open_presentation_07-01-21.pdf)
+<br/>
 The last was an voluntary lunch presentation (online) for the TU-Delft.<br/>
 Where I presented with Niels, he did the first part and I did the results and conclusion.<br/>
 ![PresentationTU_Delft](Lunch_presentation_TU_Delft.pdf)
 ¬
 
 ## paper contribution
-I<br/>
+- I gave feedback on the paper.
+- wrote the paer about the evaluation metrics.
+- wrote about how the data was scaled.
+- wrote about what loss function was used.
+- wrote about the dataset that was being used for consumption.
+- wrote about how both models, LSTM and MLP, were being made and with which parameters.
+![PaperV01]()
 ¬
 
 ## reflections
