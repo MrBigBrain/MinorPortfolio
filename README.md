@@ -39,7 +39,43 @@ This makes the program run a lot faster.<br/>
 After making an dataloader function, it was concluded that the timestamps were inconsistent. This needed to get fixed.<br/>
 We had an Brainstorm session about it (with our problem owner), whereafter we concluded that resampling to one hour works best.<br/>
 This was done by taking the differences in the values and then resampling to one hour by taking the sum of that hour.<br/>
-
+The script wherein this happens was written by Nelis (Niels van Schaick).<br/>
+![LoadingScript](Load_data.py)<br/>
+<br/>
+After this the team found out that most of the houses had huge datagaps in them.<br/>
+To visualize these gaps an heatmap was made by Niels and I.<br/>
+The heatmap shown in the program below makes it easy to select the right houses.<br/>
+![Heatmap_Program](Heatmap_np.pdf)<br/>
+<br/>
+After choosing the right datasets and the right models it was chosen to begin with the most simple models.<br/>
+These are the MVLR and SVR (firstly only for production), I worked alone on the SVR.<br/>
+Below is the SVR that I made: (the MVLR was made by Niels and Jefry.)<br/>
+![SVR_model](W9_SVR_L.pdf)<br/>
+<br/>
+After this we all had the machine learning part done.<br/>
+So it was time to move on to the deep learning part.<br/>
+We started with an simple Neural Network (MLP), which we coded as an team in one day.<br/>
+It took a few weeks to optimize the MLP, the final (optimized) version is below:<br/>
+![NN_model](W12_NeuralNetwork-Copy8.pdf)<br/>
+<br/>
+The feature selection was done in an brainstorming session with the whole team.<br/>
+When the best features were selected the datasets were made by Jefry.<br/>
+(Link is in Jefry's portfolio.)<br/>
+<br/>
+After the Neural Network, the LSTM was realised. This was my task.<br/>
+The first time I made the LSTM by repurposing an example notebook from Brian.<br/>
+This however proved hard to do and it hadn't the expected outcome.<br/>
+![ComplexLSTM_Levy](W12_NeuralNetwork-Copy8.pdf)<br/>
+One week thereafter mr. Vuurens held an presentation about LSTM's.<br/>
+Therefore it was chosen to scrap the last version of the LSTM and remake the LSTM in an simpler form.<br/>
+Jefry and Niels worked on this much simpler LSTM, and after a few weeks of optimizing the LSTM was ready:<br/>
+![Simple_LSTM](W15_LSTMConsumptionSimpleV14.pdf)<br/>
+I adviced sometimes in the process of making this LSTM.<br/>
+<br/>
+We found out that peaks were a big problem in the data.<br/>
+Nelis (Niels van Schaick) made an program to detect the peaks using the standarddeviation.<br/>
+(The program is in his portfolio.)<br/>
+<br/>
 
 ### chosen models
 According to the literature review the following models were chosen.<br/>
