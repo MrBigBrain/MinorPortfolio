@@ -29,16 +29,17 @@ After doing this research the conclusion is that LSTM works best and can be made
 In the first weeks we got the dat in Excel format. The total size was around 9 GigaBytes.<br/>
 Due to the rather large size loading was cumbersome. Therefore we discussed the best data format to put the data in.<br/>
 It was concluded that seperating the data in numpy dataframes. I made the program to do this.<br/>
-![ExcelToNumpyCoversion](Convert_Excel_tp_Numpy.pdf)<br/>
+![ExcelToNumpyConversion](Convert_Excel_tp_Numpy.pdf)<br/>
 The program loads the Excel file in an pandas dataframe. Whereafter it splits it up in numpy files, for every house and sheet combination one file.<br/>
 After running the program, around 3600 numpy files have been generated. This greatly reduces the loading times.<br/>
 <br/>
 Nelis (Niels van Schaik) made a simple program to load in the numpy data in an dataframe.<br/>
 This makes the program run a lot faster.<br/>
 <br/>
-After making an dataloader, it was concluded that the timestamps were inconsistent. This needed to get fixed.<br/>
+After making an dataloader function, it was concluded that the timestamps were inconsistent. This needed to get fixed.<br/>
 We had an Brainstorm session about it (with our problem owner), whereafter we concluded that resampling to one hour works best.<br/>
-This was done ...................................................<br/>
+This was done by taking the differences in the values and then resampling to one hour by taking the sum of that hour.<br/>
+
 
 ### chosen models
 According to the literature review the following models were chosen.<br/>
